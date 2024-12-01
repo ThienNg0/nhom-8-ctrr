@@ -88,7 +88,7 @@ int main() {
     cin >> choice;
 
     // Đọc đồ thị từ file
-    readGraphFromFile("input.txt", graph, n);
+    readGraphFromFile("data/input.txt", graph, n);
 
     // Xử lý đồ thị không có hướng
     if (choice == 2) {
